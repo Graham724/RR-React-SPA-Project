@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+
+    background: linear-gradient(
+          to right, #b154f0,
+          #12dee6, #fc00d2); 
+      background-size: 400% 400%;
+      animation: animate-background 15s infinite ease-in-out;
+}
+
+@keyframes animate-background {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+  }
